@@ -2,6 +2,7 @@
 
 Dependencies
 ============
+* python 3.6
 * numpy
 * scipy 
 * six
