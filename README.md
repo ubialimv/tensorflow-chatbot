@@ -31,12 +31,14 @@ Training
     ```
 
 3. To train the bot, edit the `seq2seq.ini` file so that mode is set to train like so
-
-`mode = train`
-
+	```
+	mode = train
+	```
+	
 4. Start training, by running the code like so:
-
-    ``python execute.py``
+	```
+    python execute.py
+	```
 
 > There is no mechanism to stop training, you will need to 'ctrl-c' to stop training after a period of time.
 
