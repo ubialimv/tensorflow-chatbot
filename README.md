@@ -24,19 +24,9 @@ Training
     ```
 
 1. Download the [Cornell Movie Dialogue dataset](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html) and place the unzipped content in the `data/` directory.
-    ```
-    cd data
-    wget http://www.mpi-sws.org/~cristian/data/cornell_movie_dialogs_corpus.zip
-    unzip cornell_movie_dialogs_corpus.zip
-
-    # move to `data/` root
-    mv "corenell movie-dialogs corpus"/* .
-    ```
 
 2. Prepare data for training, in the `data/` directory, run the `prepare_data.py` script
     ```
-    # move to project root
-    cd ..
     python prepare_data.py
     ```
 
